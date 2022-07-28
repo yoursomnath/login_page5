@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: rgb(126,230,228);
+	background: linear-gradient(96deg, rgba(126,230,228,1) 1%, rgba(69,181,219,1) 85%);
+	overflow: hidden;
+}
+.container{
+	height: 700px;
+	width: 1200px;
+	background: white;
+	border-radius: 40px;
+	display: flex;
+	box-shadow: 0 0 10px gray;
+	overflow: hidden;
+}
+.left-div{
+	height: 100%;
+	width: 500px;
+	background: #e2eff7;
+	margin-left: 200px;
+}
+.img{
+	height: 650px;
+	width: 500px;
+	position: absolute;
+	background-image: url(img3.svg);
+	background-size: cover;
+	background-position: center;
+	margin: 50px 700px; 
+	filter: drop-shadow(10px 1px rgb(126,230,228));
+
+}
+.login-div{
+	width: 700px;
+	height: 100%;
+	padding: 90px;
+	display: flex;
+	flex-direction: column;
+	grid-gap: 20px;
+
+}
+input{
+	height: 80px;
+	filter: drop-shadow(10px 10px rgb(126,230,228));
+	width: 500px;
+	border-radius: 10px;
+	border: 1px solid pink;
+	font-size: 15px;
+	font-weight: 1000;
+	color: black;
+	color: gray;
+	padding-left: 20px;
+	transition: 0.4s all;
+}
+input:hover{
+	filter: drop-shadow(5px 5px rgb(126,230,228));
+}
+label{
+	font-size: 25px;
+	padding-left: 10px;
+	font-weight: 1000;
+	color: #45b5db;
+}
+h1{
+	font-size: 50px;
+	color: #45b5db;
+	text-align-last: center;
+	filter: drop-shadow(10px 10px rgb(126,230,228));
+}
+.sign{
+	padding-left: 0px;
+	background: white;
+	color: gray;
+	font-size: 20px;
+
+}
+a {
+	color: black;
+	padding-left: 10px;
+	text-decoration: none;
+}
+.social-link{
+	height: 100px;
+	width: 500px;
+	top: 10	0px;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.join{
+	text-align-last: center;
+	font-size: 15px;
+	color: gray;
+}
+.join-with{
+	height: 50px;
+	width: 50px;
+	background: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	color: white;
+	filter: drop-shadow(10px 10px rgb(126,230,228));
+	background: rgb(126,230,228);
+}
